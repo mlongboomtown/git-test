@@ -11,4 +11,15 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+$(document).ready(function() {
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show");
+    });
+    });
+$(document).ready(function() {
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+    });
+    });
+      
 }); 
